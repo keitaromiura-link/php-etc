@@ -98,7 +98,7 @@ switch (ENVIRONMENT)
  * Include the path if the folder is not in the same directory
  * as this file.
  */
-	$system_path = 'system';
+	$system_path = '../vender/codeigniter/framework/system';
 
 /*
  *---------------------------------------------------------------
@@ -113,7 +113,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = '../application/choicereserve';
+	$application_folder = '../application/index';
 
 /*
  *---------------------------------------------------------------
