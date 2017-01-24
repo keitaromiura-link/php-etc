@@ -113,7 +113,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = '../application/index';
+	$application_folder = '../application/main';
 
 /*
  *---------------------------------------------------------------
