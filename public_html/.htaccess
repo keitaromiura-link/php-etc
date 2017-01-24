@@ -1,0 +1,7 @@
+#SetEnv X_CRZ_HOST dev
+#SetEnv X_CRZ_USER
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(?!accountmanager.php)(.*)$ index.php/$1 [L]
