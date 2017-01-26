@@ -14,6 +14,7 @@
         "kenjis/codeigniter-cli": "^0.1.0"
 	},
 	"post-create-project-cmd" : [
+        "chmod u+x bin/application_make.sh",
         "bin/application_make.sh main",
         "bin/application_make.sh other",
         "echo -e \"<?php\nrequire_once 'main.php';\" > public_html/index.php"
